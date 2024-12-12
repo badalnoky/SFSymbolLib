@@ -6416,7 +6416,7 @@ extension SFSymbols: Identifiable {
 @available(watchOS 6.0, *)
 @available(macOS 11.0, *)
 extension SFSymbols {
-    var image: Image {
+    public var image: Image {
         Image(systemName: self.rawValue)
     }
 }
